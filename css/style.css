@@ -3,14 +3,17 @@ body {
 }
 *{
     margin: 0 auto;
+    font-family: 'Nerko One', cursive;
 }
 header > h1 {
     text-align: center;
     padding: 2rem;
+    font-size: 70px;
+    color: white;
 }
 .container_principal {
     width: 60%;
-    background-color: white;
+
 }
 .row {
     height: 250px;
@@ -22,7 +25,7 @@ header > h1 {
     width: 24%;
     height: 100%;
     margin: 0 2.3px;
-    /*     background-color: violet; */
+        background-color: white;
     border: 2px solid black;
     border-radius: 1rem;
     float: left;
@@ -54,8 +57,8 @@ h2 {
 }
 #submarine {
      background-image: url('../img/noun_Submarine_3134738.png');
-}
-#tractor {
+    }
+    #tractor {
     background-image: url('../img/noun_Tractor_3134797.png');
 }
 #tram {
@@ -71,9 +74,35 @@ h2 {
     border-radius: 1rem;
     position: absolute;
     top: 0;
-/*     display: block; */
+    /*     display: block; */
 }
 .carta:hover .copertina {
     display: none;
+}
 
+.orange {
+    color: orange;
+    font-size: 30px;
+}
+
+.fuchsia {
+    color: fuchsia;
+    font-size: 30px;
+}
+
+.green {
+    color: green;
+    font-size: 30px;
+}
+.blue {
+    color: blue;
+    font-size: 30px;
+}
+.red {
+    color: red;
+    font-size: 30px;
+}
+.yellow {
+    color: yellow;
+    font-size: 30px;
 }
